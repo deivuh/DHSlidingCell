@@ -46,7 +46,7 @@
 
 
 
-@property (nonatomic, assign) id<DHSlidingCellDelegate> delegate;
+@property (nonatomic, assign) IBOutlet id<DHSlidingCellDelegate> delegate;
 
 
 @end

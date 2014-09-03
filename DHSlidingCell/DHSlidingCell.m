@@ -107,9 +107,10 @@
             return;
         }
         
-        underLayerView.alpha = (float)abs(translation.x)/100;
-        _overLayerViewLeft.alpha = (float)-translation.x/100;
-        _overLayerViewRight.alpha = (float)translation.x/100;
+        _underLayerViewLeft.alpha = (float)abs(translation.x)/150;
+        _underLayerViewRight.alpha = (float)abs(translation.x)/150;
+        _overLayerViewLeft.alpha = (float)-translation.x/150;
+        _overLayerViewRight.alpha = (float)translation.x/150;
 
         
     
@@ -135,7 +136,8 @@
                                  self.cellContentView.frame = originalFrame;
                                  _overLayerViewLeft.alpha = 0.0f;
                                  _overLayerViewRight.alpha = 0.0f;
-                                 underLayerView.alpha = 0.0f;
+                                 _underLayerViewLeft.alpha = 0.0f;
+                                 _underLayerViewRight.alpha = 0.0f;
                              }
              ];
             
@@ -151,7 +153,8 @@
                                  self.cellContentView.frame = originalFrame;
                                  _overLayerViewLeft.alpha = 0.0f;
                                  _overLayerViewRight.alpha = 0.0f;
-                                 underLayerView.alpha = 0.0f;
+                                 _underLayerViewLeft.alpha = 0.0f;
+                                 _underLayerViewRight.alpha = 0.0f;
                              }
              ];
             
@@ -169,7 +172,8 @@
                                  self.cellContentView.frame = originalFrame;
                                  _overLayerViewLeft.alpha = 0.0f;
                                  _overLayerViewRight.alpha = 0.0f;
-                                 underLayerView.alpha = 0.0f;
+                                 _underLayerViewLeft.alpha = 0.0f;
+                                 _underLayerViewRight.alpha = 0.0f;
                              }
              ];
            

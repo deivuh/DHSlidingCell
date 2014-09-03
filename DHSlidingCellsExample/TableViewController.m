@@ -59,9 +59,16 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    DHSlidingCell *cell = [tableView dequeueReusableCellWithIdentifier:@"slidingCell" forIndexPath:indexPath];
+    DHSlidingCell *cell;
+    
+    if (indexPath.section == 0)
+        cell = [tableView dequeueReusableCellWithIdentifier:@"slidingCellOver" forIndexPath:indexPath];
+    else
+        cell = [tableView dequeueReusableCellWithIdentifier:@"slidingCellUnder" forIndexPath:indexPath];
+    
     
     cell.delegate = self;
+
 
     
     switch (indexPath.row) {

@@ -27,7 +27,7 @@
 	BOOL swipeRightComplete;
     BOOL swipeLeftComplete;
     
-    UIImageView *underLayerView;
+
 
     
     
@@ -41,7 +41,8 @@
 @property (weak, nonatomic) IBOutlet UIView *cellContentView;
 @property (weak, nonatomic) IBOutlet UIView *overLayerViewLeft;
 @property (weak, nonatomic) IBOutlet UIView *overLayerViewRight;
-
+@property (weak, nonatomic) IBOutlet UIView *underLayerViewLeft;
+@property (weak, nonatomic) IBOutlet UIView *underLayerViewRight;
 
 
 

@@ -24,6 +24,7 @@
 1. Add <DHSlidingCellDelegate> to the header file of your TableviewController, or wherever might suit your needs better.
 2. Make sure to have set the delegate of the cell by linking the `delegate` outlet to your TableviewController from the connections inspector or setting them on code inside the `- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath` delegate method.
 3. Handle each sliding cell action inside their respective methods
+
 		- (void)swipedCellToLeftAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"Swiped left on section %ld row %ld", indexPath.section, indexPath.row);
 		}

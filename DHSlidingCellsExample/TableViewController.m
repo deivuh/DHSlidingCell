@@ -99,9 +99,9 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     if (section == 0) {
-        return @"Under";
-    } else
         return @"Over";
+    } else
+        return @"Under";
 }
 
 

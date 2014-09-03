@@ -32,6 +32,9 @@
 				//Swiped to the right
 		}
 
+##TL;DR
+Check example project included
+
 #License
 The MIT License (MIT)
 

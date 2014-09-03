@@ -1,6 +1,6 @@
 #DHSlidingCell
 
-`DHSlidingCell` is a custom cell to be used for left and right swipe actions, and supports custom overlay images to provide a nice swipe animation feedback to the user.
+`DHSlidingCell` is a custom cell to be used for left and right swipe actions, and supports custom overlay images to provide a nice swipe animation feedback to the user. This is the same custom cell used on the app [TwentyOne](https://itunes.apple.com/us/app/twenty-one-form-new-habits/id903695313?ls=1&mt=8)
 
 ![](https://github.com/deivuh/DHSlidingCell/blob/master/DHSlidingCell.gif)
 

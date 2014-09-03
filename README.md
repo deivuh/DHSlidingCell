@@ -8,7 +8,8 @@
 
 #Installation
 
-To do
+- Add `DHSlidingCell.h` and `DHSlidingCell.m` to your project. Make sure to check "Copy items into destination group's folder" if the files are not already in your project's directory
+- Include with `#import "DHSlidingCell.h"` to use it wherever you need.
 
 #Use
 

@@ -31,8 +31,3 @@
 		- (void)swipedCellToRightAtIndexPath:(NSIndexPath *)indexPath {
 				//Swiped to the right
 		}
-
-
-##Code
-
---To do--

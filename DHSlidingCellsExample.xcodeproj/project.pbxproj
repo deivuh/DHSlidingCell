@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1B308519B6AF2A00C79F47 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B308419B6AF2A00C79F47 /* TableViewController.m */; };
 		4DFBFCA719B5983200166B75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFBFCA619B5983200166B75 /* Foundation.framework */; };
 		4DFBFCA919B5983200166B75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFBFCA819B5983200166B75 /* CoreGraphics.framework */; };
 		4DFBFCAB19B5983200166B75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFBFCAA19B5983200166B75 /* UIKit.framework */; };
@@ -14,13 +15,13 @@
 		4DFBFCB319B5983200166B75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBFCB219B5983200166B75 /* main.m */; };
 		4DFBFCB719B5983200166B75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBFCB619B5983200166B75 /* AppDelegate.m */; };
 		4DFBFCBA19B5983200166B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFBFCB819B5983200166B75 /* Main.storyboard */; };
-		4DFBFCBD19B5983200166B75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBFCBC19B5983200166B75 /* ViewController.m */; };
 		4DFBFCBF19B5983200166B75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFBFCBE19B5983200166B75 /* Images.xcassets */; };
 		4DFBFCC619B5983200166B75 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFBFCC519B5983200166B75 /* XCTest.framework */; };
 		4DFBFCC719B5983200166B75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFBFCA619B5983200166B75 /* Foundation.framework */; };
 		4DFBFCC819B5983200166B75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFBFCAA19B5983200166B75 /* UIKit.framework */; };
 		4DFBFCD019B5983200166B75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DFBFCCE19B5983200166B75 /* InfoPlist.strings */; };
 		4DFBFCD219B5983200166B75 /* DHSlidingCellsExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBFCD119B5983200166B75 /* DHSlidingCellsExampleTests.m */; };
+		4DFBFCDE19B59BA400166B75 /* DHSlidingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBFCDD19B59BA400166B75 /* DHSlidingCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D1B308319B6AF2A00C79F47 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		4D1B308419B6AF2A00C79F47 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		4DFBFCA319B5983200166B75 /* DHSlidingCellsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHSlidingCellsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFBFCA619B5983200166B75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4DFBFCA819B5983200166B75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +48,14 @@
 		4DFBFCB519B5983200166B75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DFBFCB619B5983200166B75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4DFBFCB919B5983200166B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4DFBFCBB19B5983200166B75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4DFBFCBC19B5983200166B75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4DFBFCBE19B5983200166B75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4DFBFCC419B5983200166B75 /* DHSlidingCellsExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHSlidingCellsExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFBFCC519B5983200166B75 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4DFBFCCD19B5983200166B75 /* DHSlidingCellsExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DHSlidingCellsExampleTests-Info.plist"; sourceTree = "<group>"; };
 		4DFBFCCF19B5983200166B75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4DFBFCD119B5983200166B75 /* DHSlidingCellsExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHSlidingCellsExampleTests.m; sourceTree = "<group>"; };
+		4DFBFCDC19B59BA400166B75 /* DHSlidingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSlidingCell.h; sourceTree = "<group>"; };
+		4DFBFCDD19B59BA400166B75 /* DHSlidingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSlidingCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 				4DFBFCCB19B5983200166B75 /* DHSlidingCellsExampleTests */,
 				4DFBFCA519B5983200166B75 /* Frameworks */,
 				4DFBFCA419B5983200166B75 /* Products */,
+				4DFBFCDB19B59BA400166B75 /* DHSlidingCell */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,10 +119,10 @@
 				4DFBFCB519B5983200166B75 /* AppDelegate.h */,
 				4DFBFCB619B5983200166B75 /* AppDelegate.m */,
 				4DFBFCB819B5983200166B75 /* Main.storyboard */,
-				4DFBFCBB19B5983200166B75 /* ViewController.h */,
-				4DFBFCBC19B5983200166B75 /* ViewController.m */,
 				4DFBFCBE19B5983200166B75 /* Images.xcassets */,
 				4DFBFCAD19B5983200166B75 /* Supporting Files */,
+				4D1B308319B6AF2A00C79F47 /* TableViewController.h */,
+				4D1B308419B6AF2A00C79F47 /* TableViewController.m */,
 			);
 			path = DHSlidingCellsExample;
 			sourceTree = "<group>";
@@ -150,6 +154,15 @@
 				4DFBFCCE19B5983200166B75 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DFBFCDB19B59BA400166B75 /* DHSlidingCell */ = {
+			isa = PBXGroup;
+			children = (
+				4DFBFCDC19B59BA400166B75 /* DHSlidingCell.h */,
+				4DFBFCDD19B59BA400166B75 /* DHSlidingCell.m */,
+			);
+			path = DHSlidingCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DFBFCBD19B5983200166B75 /* ViewController.m in Sources */,
 				4DFBFCB719B5983200166B75 /* AppDelegate.m in Sources */,
+				4DFBFCDE19B59BA400166B75 /* DHSlidingCell.m in Sources */,
 				4DFBFCB319B5983200166B75 /* main.m in Sources */,
+				4D1B308519B6AF2A00C79F47 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +470,7 @@
 				4DFBFCD719B5983200166B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DFBFCD819B5983200166B75 /* Build configuration list for PBXNativeTarget "DHSlidingCellsExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +479,7 @@
 				4DFBFCDA19B5983200166B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

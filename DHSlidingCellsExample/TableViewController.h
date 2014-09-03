@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  DHSlidingCellsExample
 //
 //  Created by David Hsieh on 9/2/14.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DHSlidingCell.h"
 
-@interface ViewController : UIViewController
+@interface TableViewController : UITableViewController <DHSlidingCellDelegate>
 
 @end

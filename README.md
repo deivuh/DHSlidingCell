@@ -26,10 +26,10 @@
 3. Handle each sliding cell action inside their respective methods
 
 		- (void)swipedCellToLeftAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"Swiped left on section %ld row %ld", indexPath.section, indexPath.row);
+				//Swiped to the left
 		}
 		- (void)swipedCellToRightAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"Swiped right on section %ld row %ld", indexPath.section, indexPath.row);
+				//Swiped to the right
 		}
 
 

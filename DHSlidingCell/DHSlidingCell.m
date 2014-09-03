@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 David Hsieh. All rights reserved.
 //
 
-#define ANIMATION_TIME 0.3f
+#define ANIMATION_TIME 0.25f
 
 
 #import "DHSlidingCell.h"
